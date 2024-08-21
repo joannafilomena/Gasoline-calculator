@@ -8,12 +8,21 @@ html {
     box-sizing: inherit;
 }
 
-body{
+body {
     font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/car_background.jpg);
+    background-size: cover;
 }
 
 .form {
-    margin-top: 15px;
+    flex-basis: 700px;
+    margin: 20px 5px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .form__legend {
@@ -35,13 +44,14 @@ body{
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-    width:100%;
+    border: none;
+    width: 100%;
     font-weight: 500;
     background-color: black;
     color: white;
 }
 
-.form__button:hover{
+.form__button:hover {
     background-color: rgb(57, 57, 57);
 }
 
